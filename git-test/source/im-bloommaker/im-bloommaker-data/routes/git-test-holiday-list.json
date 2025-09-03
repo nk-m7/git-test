@@ -1,0 +1,32 @@
+{
+  "routeId" : "git-test-holiday-list",
+  "categoryId" : "as_git-test",
+  "url" : "accel-studio-app/git-test/list",
+  "method" : "GET",
+  "contentId" : "git-test-holiday-list",
+  "contentVersion" : -1,
+  "routeName" : "git-test 休暇一覧画面",
+  "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。",
+  "sortNumber" : 0,
+  "localizes" : {
+    "zh_CN" : {
+      "routeId" : "git-test-holiday-list",
+      "locale" : "zh_CN",
+      "routeName" : "git-test 休息列表页面",
+      "description" : "根据「休息申请工作流」模板创建的休息列表页面的路由定义。"
+    },
+    "en" : {
+      "routeId" : "git-test-holiday-list",
+      "locale" : "en",
+      "routeName" : "git-test Vacation List Screen",
+      "description" : "This vacation list screen routing definition is created from the \"Vacation Request Workflow\" template."
+    },
+    "ja" : {
+      "routeId" : "git-test-holiday-list",
+      "locale" : "ja",
+      "routeName" : "git-test 休暇一覧画面",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。"
+    }
+  },
+  "preprocesses" : [ ]
+}

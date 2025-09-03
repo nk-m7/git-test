@@ -1,0 +1,2431 @@
+{
+  "application" : {
+    "applicationId" : "git-test",
+    "applicationName" : "git-test",
+    "description" : "git-test",
+    "enabledFlag" : "1",
+    "categoryId" : "git-test",
+    "sortNumber" : 0,
+    "localizedApplicationName" : { },
+    "localizedDescription" : { },
+    "resourceRelations" : [ {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://contents/git-test-holiday-list"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://contents/git-test-holiday-wf"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-apply-data-delete"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-apply-data-edit"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-apply-data-refer"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-apply-data-register"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-delete-activematters"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-delete-archivematters"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-delete-completedmatters"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-get-apply-data"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-get-user-name-list"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-holiday-list-by-user"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-holiday-list-weekly"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-holiday-refer"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-holiday-withdrawal"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-wf-action"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://flows/git-test-wf-end"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-workflow://flowdefinitions/8hqdtcw8m88tb1z-flow"
+    } ],
+    "resources" : [ {
+      "resourceId" : "im-bloommaker://contents/git-test-holiday-list",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のコンテンツです。",
+      "definitionCategory" : "im-bloommaker://contents",
+      "resourceName" : "git-test 休暇一覧画面",
+      "resourceKey1" : "git-test-holiday-list",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息列表页面",
+        "en" : "git-test Vacation List Screen",
+        "ja" : "git-test 休暇一覧画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息列表页面的内容。",
+        "en" : "This vacation list screen content is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のコンテンツです。"
+      }
+    }, {
+      "resourceId" : "im-bloommaker://contents/git-test-holiday-wf",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のコンテンツです。",
+      "definitionCategory" : "im-bloommaker://contents",
+      "resourceName" : "git-test 休暇申請WF画面",
+      "resourceKey1" : "git-test-holiday-wf",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息申请WF页面",
+        "en" : "git-test Vacation Request WF Screen",
+        "ja" : "git-test 休暇申請WF画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息申请WF页面的内容。",
+        "en" : "This vacation request WF screen content is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のコンテンツです。"
+      }
+    }, {
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。",
+      "definitionCategory" : "im-bloommaker://routes",
+      "resourceName" : "git-test 休暇一覧画面",
+      "resourceKey1" : "git-test-holiday-list",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息列表页面",
+        "en" : "git-test Vacation List Screen",
+        "ja" : "git-test 休暇一覧画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息列表页面的路由定义。",
+        "en" : "This vacation list screen routing definition is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。"
+      }
+    }, {
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。",
+      "definitionCategory" : "im-bloommaker://routes",
+      "resourceName" : "git-test 休暇申請WF画面",
+      "resourceKey1" : "git-test-holiday-wf",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息申请WF页面",
+        "en" : "git-test Vacation Request WF Screen",
+        "ja" : "git-test 休暇申請WF画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息申请WF页面的路由定义。",
+        "en" : "This vacation request WF screen routing definition is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。"
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-apply-data-delete",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された申請情報削除処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 申請情報削除処理",
+      "resourceKey1" : "git-test-apply-data-delete",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 申请信息删除处理",
+        "en" : "git-test Apply Information Deletion Process",
+        "ja" : "git-test 申請情報削除処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-apply-data-edit",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された申請情報編集処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 申請情報編集処理",
+      "resourceKey1" : "git-test-apply-data-edit",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 申请信息编辑处理",
+        "en" : "git-test Apply Information Edit Process",
+        "ja" : "git-test 申請情報編集処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-apply-data-refer",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された申請情報参照処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 申請情報参照処理",
+      "resourceKey1" : "git-test-apply-data-refer",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 申请信息参照处理",
+        "en" : "git-test Apply Information Reference Process",
+        "ja" : "git-test 申請情報参照処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-apply-data-register",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された申請情報登録処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 申請情報登録処理",
+      "resourceKey1" : "git-test-apply-data-register",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 申请信息登记处理",
+        "en" : "git-test Apply Information Register Process",
+        "ja" : "git-test 申請情報登録処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-delete-activematters",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWF未完了案件削除処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WF未完了案件削除処理",
+      "resourceKey1" : "git-test-delete-activematters",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WF未结束案件删除处理",
+        "en" : "git-test WF incomplete matter deletion process",
+        "ja" : "git-test WF未完了案件削除処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-delete-archivematters",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWF過去案件削除処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WF過去案件削除処理",
+      "resourceKey1" : "git-test-delete-archivematters",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WF过去案件删除处理",
+        "en" : "git-test WF past matter deletion process",
+        "ja" : "git-test WF過去案件削除処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-delete-completedmatters",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWF完了案件削除処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WF完了案件削除処理",
+      "resourceKey1" : "git-test-delete-completedmatters",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WF结束案件删除处理",
+        "en" : "git-test WF past matter deletion process",
+        "ja" : "git-test WF完了案件削除処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-get-apply-data",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWF画面前処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WF画面前処理",
+      "resourceKey1" : "git-test-get-apply-data",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WF页面前处理",
+        "en" : "git-test WF Screen Pre-Processing",
+        "ja" : "git-test WF画面前処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-get-user-name-list",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたユーザ名配列取得処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test ユーザ名配列取得処理",
+      "resourceKey1" : "git-test-get-user-name-list",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 用户名数组获取处理",
+        "en" : "git-test User Name Array Acquisition Process",
+        "ja" : "git-test ユーザ名配列取得処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-holiday-list-by-user",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたユーザ別休暇日一覧参照処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test ユーザ別休暇日一覧参照処理",
+      "resourceKey1" : "git-test-holiday-list-by-user",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 不同用户休息日列表参照处理",
+        "en" : "git-test Vacation Date List by User Reference Process",
+        "ja" : "git-test ユーザ別休暇日一覧参照処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-holiday-list-weekly",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された週間休暇日一覧参照処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 週間休暇日一覧参照処理",
+      "resourceKey1" : "git-test-holiday-list-weekly",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 一周休息日列表参照处理",
+        "en" : "git-test Weekly Vacation Date List Reference Process",
+        "ja" : "git-test 週間休暇日一覧参照処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-holiday-refer",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇日詳細参照処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 休暇日詳細参照処理",
+      "resourceKey1" : "git-test-holiday-refer",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息日详细信息参照处理",
+        "en" : "git-test Vacation Date Details Reference Process",
+        "ja" : "git-test 休暇日詳細参照処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-holiday-withdrawal",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇日取り下げ処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test 休暇日取り下げ処理",
+      "resourceKey1" : "git-test-holiday-withdrawal",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test 休息日取消处理",
+        "en" : "git-test Vacation Date Withdrawal Process",
+        "ja" : "git-test 休暇日取り下げ処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-wf-action",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWFアクション処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WFアクション処理",
+      "resourceKey1" : "git-test-wf-action",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WFAction处理",
+        "en" : "git-test WF action process",
+        "ja" : "git-test WFアクション処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://flows/git-test-wf-end",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたWF案件終了処理です。",
+      "definitionCategory" : "im-logic://flows",
+      "resourceName" : "git-test WF案件終了処理",
+      "resourceKey1" : "git-test-wf-end",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test WF案件结束处理",
+        "en" : "git-test WF Matter End Process",
+        "ja" : "git-test WF案件終了処理"
+      },
+      "localizedDescription" : {
+        "zh_CN" : null,
+        "en" : null,
+        "ja" : null
+      }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "description" : null,
+      "definitionCategory" : "im-logic://routes",
+      "resourceName" : "GET accel-studio-app/git-test/list/user",
+      "resourceKey1" : "accel-studio-app/git-test/list/user",
+      "resourceKey2" : "GET",
+      "resourceKey3" : null,
+      "localizedResourceName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "description" : null,
+      "definitionCategory" : "im-logic://routes",
+      "resourceName" : "GET accel-studio-app/git-test/list/weekly",
+      "resourceKey1" : "accel-studio-app/git-test/list/weekly",
+      "resourceKey2" : "GET",
+      "resourceKey3" : null,
+      "localizedResourceName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "description" : null,
+      "definitionCategory" : "im-logic://routes",
+      "resourceName" : "GET accel-studio-app/git-test/refer",
+      "resourceKey1" : "accel-studio-app/git-test/refer",
+      "resourceKey2" : "GET",
+      "resourceKey3" : null,
+      "localizedResourceName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "description" : null,
+      "definitionCategory" : "im-logic://routes",
+      "resourceName" : "PUT accel-studio-app/git-test/withdrawal",
+      "resourceKey1" : "accel-studio-app/git-test/withdrawal",
+      "resourceKey2" : "PUT",
+      "resourceKey3" : null,
+      "localizedResourceName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-workflow://flowdefinitions/8hqdtcw8m88tb1z-flow",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成されたフロー定義です。",
+      "definitionCategory" : "im-workflow://flowdefinitions",
+      "resourceName" : "git-test",
+      "resourceKey1" : "8hqdtcw8m88tb1z-flow",
+      "resourceKey2" : null,
+      "resourceKey3" : null,
+      "localizedResourceName" : {
+        "zh_CN" : "git-test",
+        "en" : "git-test",
+        "ja" : "git-test"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的流程定义。",
+        "en" : "This flow definition is created from a \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成されたフロー定義です。"
+      }
+    } ],
+    "applicationRoutes" : [ {
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。",
+      "applicationId" : "git-test",
+      "method" : "GET",
+      "url" : "accel-studio-app/git-test/list",
+      "resourceUri" : "im-bloommaker-content://contents/route/git-test-holiday-list",
+      "routeName" : "git-test 休暇一覧画面",
+      "localizedRouteName" : {
+        "zh_CN" : "git-test 休息列表页面",
+        "en" : "git-test Vacation List Screen",
+        "ja" : "git-test 休暇一覧画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息列表页面的路由定义。",
+        "en" : "This vacation list screen routing definition is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇一覧画面のルーティング定義です。"
+      }
+    }, {
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。",
+      "applicationId" : "git-test",
+      "method" : "POST",
+      "url" : "accel-studio-app/git-test/wf",
+      "resourceUri" : "im-bloommaker-content://contents/route/git-test-holiday-wf",
+      "routeName" : "git-test 休暇申請WF画面",
+      "localizedRouteName" : {
+        "zh_CN" : "git-test 休息申请WF页面",
+        "en" : "git-test Vacation Request WF Screen",
+        "ja" : "git-test 休暇申請WF画面"
+      },
+      "localizedDescription" : {
+        "zh_CN" : "根据「休息申请工作流」模板创建的休息申请WF页面的路由定义。",
+        "en" : "This vacation request WF screen routing definition is created from the \"Vacation Request Workflow\" template.",
+        "ja" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。"
+      }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "description" : null,
+      "applicationId" : "git-test",
+      "method" : "GET",
+      "url" : "logic/api/accel-studio-app/git-test/list/user",
+      "resourceUri" : "im-logic-rest://accel-studio-app/git-test/list/user-GET",
+      "routeName" : "GET accel-studio-app/git-test/list/user",
+      "localizedRouteName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "description" : null,
+      "applicationId" : "git-test",
+      "method" : "GET",
+      "url" : "logic/api/accel-studio-app/git-test/list/weekly",
+      "resourceUri" : "im-logic-rest://accel-studio-app/git-test/list/weekly-GET",
+      "routeName" : "GET accel-studio-app/git-test/list/weekly",
+      "localizedRouteName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "description" : null,
+      "applicationId" : "git-test",
+      "method" : "GET",
+      "url" : "logic/api/accel-studio-app/git-test/refer",
+      "resourceUri" : "im-logic-rest://accel-studio-app/git-test/refer-GET",
+      "routeName" : "GET accel-studio-app/git-test/refer",
+      "localizedRouteName" : { },
+      "localizedDescription" : { }
+    }, {
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "description" : null,
+      "applicationId" : "git-test",
+      "method" : "PUT",
+      "url" : "logic/api/accel-studio-app/git-test/withdrawal",
+      "resourceUri" : "im-logic-rest://accel-studio-app/git-test/withdrawal-PUT",
+      "routeName" : "PUT accel-studio-app/git-test/withdrawal",
+      "localizedRouteName" : { },
+      "localizedDescription" : { }
+    } ],
+    "categories" : [ {
+      "categoryId" : "git-test",
+      "categoryName" : "Git連携小規模勉強会",
+      "sortNumber" : 0,
+      "parentId" : null,
+      "localizedCategoryName" : { }
+    } ],
+    "policies" : [ {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-list",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-bloommaker://routes/git-test-holiday-wf",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/user/GET",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/list/weekly/GET",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/refer/GET",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "00872807a20907c4bb06510df31cf7687f784e4d80d3a7e349993c79d1b85346",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "01b9a67f47b5a259674504e25ae1bed325899a8e1b246d4cb8e17f72a48ef2a3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "0211c91f962bced38095678538e939db8331dcdd1d7364f6f4069d162adbf60e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "0fb58458dec2765a5c7ee69bd2a0009c56ca8d8dabddaffd5e4bf30da077406f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "111875f4c75127b5b85c889ad727db5ee9f6a97a4537a598cdf824d5cd73f747",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "1130bb3e51d0152f5ee0a9e9f120d292bd440a4b99e853d50e355c2e6742b517",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "1244917a86fe314438360ce9e6d6ab1f123491c54ce56e0b1fc645c0ee6468fb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "12563cda6e135d9edd16a3ccb1ff728a3b276f8c717eff3baa1f0bbbf96bc347",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "23e85909277e9ab6be2b51d59c9a4b0f4f71041f88a3ba1730e2b612486aba6f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "2895c71c00dd4c58f6ed7ef019b447e7dbe07a3d9bfb598de808dca42d63f81c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "28f374d9d040f59e8fd95cc48b07c5cdb82c57056713630198d89f7ef9af9efb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "2b3925aafabf066cbf487a0013abe7bcd7bb769d99ac117ef388e507b47ccd31",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "2c481f98a0d3ff274e6859e74465ffe24cf9eaa4c8914c63e73237ce14f1d838",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "2ed889443223157d2f479beb37fb9038613bd78fd54ace4e9c5729540bfd1e4b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "30c224029af28dfa4247b21f1433e394e19a73bad85bd9c765cd295242c61afa",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "35243d3cab031812d21c65764711cea68ea8ea5c08e4068afe75125a8020df8c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "360eeff19e266fe697533543408d4c59e8cd7a3f39a6fa3b30714e5b8cd284eb",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "362c9e3332f55eae2f5c54d0f443e81522204f7e15bb3a8d4269fe37b7af379a",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "36cdb046b70d7b358cb4c69bc54ff9ffa4ba8172317b7bed59fa817d6906792d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "36ce8d55a7ad2d4fbf519ff8abe38febd597f0dcf20b312735ea59257ed4cfae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "3a6dfb47d819bcbd575dfed5951ebdad7aa7fbaebd19d4bb504e038e41b7257f",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "3ba8abbf229e6846bc28cbd129fb873987c2fdd74fb6c4a8ece7428449707931",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "3c6991b2e434f510b312d32ab4567a579838c05392269cc37c245eb31e10014b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "42560b4cb4dbfe62b37e9d9946160f284c74994a4d6524da53c0e36838c3fc98",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "46717b0c602084460306b0af8c20b7878c9ca913f3a99dd270639d886d9937b7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "4689f20706db2dc6b0b80c5c6ea958e09d0a4bd33fad906e5a64a1c4f35852cd",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "50491b4e82a73d05c24a632f7772d22f4c53aacca346adccdfb8d4a9664f7926",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "53dd8480156c392d43b2f249588dba7ab156cff8274f3935b1f618248d4e5c47",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "53e4d32965f6047703744e7b788f59510d02289a059d46782c037e15d5aca556",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "56e4a7b132d15aa1877f48aea74d312c8878d176dc8b51e4ffa019f21d1ef1f0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "5949d8876c5bf666767a9a2b699ae54569fbcb57141f970676fdfe49727fc77b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "5a5424f0c04660d418f4ec0f9c78a4032886a8aebc8ec07350a66425ef2fc8f7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "5ab7058d953b5a2368ab3f8716a774df0c2a15dfe09a301f0b5b570c8d89f1b6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "67cbab9eca95a0762646b19a09c07d7520ae40c052d8d57f007be2d639612d8e",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "6a4f612e68b3ac9e2a2e9b20a589b616cc28f1a1abd6829fcd125a69a632db49",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "6f326283ee715d40f53e4e767ceb63ed53159e90a8dc3e4166c0fdd5bc28a740",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "757505e4f28d2916f2a700ceec5511237039de05878ff28426f89ee94ea4efc8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "76a6f7972edba0ef415ec84458dbc18c80c04147350b4c43b2bcd60b45443a89",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "7a3d0aab089a63e815be01054598a5aab4470ac10cc16fa2a0eed20b55b3e847",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "8b6804b41e97fec4b8ee3fe8ea38a77ec6dcc80aa0c0a648e8638f1f1e733dae",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "8e9fb1deee3c47046a617540d41c00995fc8d505b22d6236267966f813ee3c37",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "9045289d1bc9e4eea235fc75ead48c0a48ef84b0da83468c6179950e7d4fb6a8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "907942dc1edff3001da68362b6d0490b619423601580b69718579cb815cb6fe8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "91b1e0d30f77ea53e79cf3b37441c049da5371bd51bc057fb526cf6bf9462562",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "9b2303addeee2a236dd6bdb2cd9a83dbad054d59b407d61dbe95bedce07e4dca",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "9bcf5bc44e19138c73d8ee89d3c7ae7047ee6b890ac6302ed8164b3271e3d40f",
+      "effect" : "PERMIT"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "9da8726181d3b8b2e5293d7b7a4c20a1aab8886d1a4c22a016cb248d18f74365",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "a267a88bd5c6266df2b343e7458ee6cf44a45a68f8521040bd37ceb2a9352876",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "aae749661075fd09fb4514f1115b5ed8913d199c4d0ba96407819a51f2a45f8d",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "af755b2dcf861bb661a5287ec9f011b0310cfbaedcaeecad5335359027cbfaa0",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "b0044dcbd1fcc55dd7fa6836a2e0f70451eac4f93fc63038eede670a2e3c9cd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "b2716ec5f815f0b9cab8004859a84fc989d8574fb45d6f9a920b9e89e19df845",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "b2972f4974e9adbc8a2f1ef4802cf1da3a638a01d0f5e0ef40018ca58c802c6c",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "b83a326b8fbfd78c15be88d9fef0db1addc752f7a795783062476e023ecf56d6",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "bb137034d7647b2fe1499eb6071c183f5d4259cc636f0f39a70bcebff5508c53",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "c8b9a12510ceb4b38cf34f2c53b195ba0b0833dcc1298a05c73da603bbea68d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "d4944359db47bd9697d865a0fb409e741452c60a263e4354bd0b50011b0979d8",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "d89088166282664bdb9d5ff8b7672f4fba774e802849cf60e6abc79a2503654b",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "e8bb6965377eab1fab59ab6e62a934337a1985b5555802859065f76bb0e4cbd3",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "ee12eced218ee396611eadaa422f84fa05e1faa58d8ad23d8a25d8e60c4e99c7",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "f168026788766ae9aceaaf3511025243101b16a0c108b29420c44b5dbf5ee114",
+      "effect" : "DENY"
+    }, {
+      "applicationId" : "git-test",
+      "resourceId" : "im-logic://routes/accel-studio-app/git-test/withdrawal/PUT",
+      "subjectGroupId" : "fda8c38f3382c2d3e4c3c5325fa48c58ad9215f20aca1ca0719cfbbe693a0a98",
+      "effect" : "DENY"
+    } ]
+  }
+}

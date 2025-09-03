@@ -1,0 +1,41 @@
+{
+  "routeId" : "git-test-holiday-wf",
+  "categoryId" : "as_git-test",
+  "url" : "accel-studio-app/git-test/wf",
+  "method" : "POST",
+  "contentId" : "git-test-holiday-wf",
+  "contentVersion" : -1,
+  "routeName" : "git-test 休暇申請WF画面",
+  "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。",
+  "sortNumber" : 0,
+  "localizes" : {
+    "zh_CN" : {
+      "routeId" : "git-test-holiday-wf",
+      "locale" : "zh_CN",
+      "routeName" : "git-test 休息申请WF页面",
+      "description" : "根据「休息申请工作流」模板创建的休息申请WF页面的路由定义。"
+    },
+    "en" : {
+      "routeId" : "git-test-holiday-wf",
+      "locale" : "en",
+      "routeName" : "git-test Vacation Request WF Screen",
+      "description" : "This vacation request WF screen routing definition is created from the \"Vacation Request Workflow\" template."
+    },
+    "ja" : {
+      "routeId" : "git-test-holiday-wf",
+      "locale" : "ja",
+      "routeName" : "git-test 休暇申請WF画面",
+      "description" : "「休暇申請ワークフロー」テンプレートから作成された休暇申請WF画面のルーティング定義です。"
+    }
+  },
+  "preprocesses" : [ {
+    "@class" : "jp.co.intra_mart.foundation.bloommaker.route.BMContentJavaPreprocess",
+    "routeId" : "git-test-holiday-wf",
+    "className" : "jp.co.intra_mart.system.workflow.bloommaker.preprocessor.WorkflowAuthChecker"
+  }, {
+    "@class" : "jp.co.intra_mart.foundation.bloommaker.route.BMContentLogicFlowPreprocess",
+    "routeId" : "git-test-holiday-wf",
+    "flowId" : "git-test-get-apply-data",
+    "version" : null
+  } ]
+}

@@ -1,0 +1,45 @@
+[ {
+  "route" : "accel-studio-app/git-test/list/user",
+  "method" : "GET",
+  "flowId" : "git-test-holiday-list-by-user",
+  "version" : -1,
+  "authentication" : "IMAuthentication",
+  "authenticationParam" : null,
+  "authzUri" : "im-logic-rest://accel-studio-app/git-test/list/user-GET",
+  "secured" : false,
+  "responseType" : "imJsonResponse",
+  "responseHeader" : { }
+}, {
+  "route" : "accel-studio-app/git-test/list/weekly",
+  "method" : "GET",
+  "flowId" : "git-test-holiday-list-weekly",
+  "version" : -1,
+  "authentication" : "IMAuthentication",
+  "authenticationParam" : null,
+  "authzUri" : "im-logic-rest://accel-studio-app/git-test/list/weekly-GET",
+  "secured" : false,
+  "responseType" : "imJsonResponse",
+  "responseHeader" : { }
+}, {
+  "route" : "accel-studio-app/git-test/refer",
+  "method" : "GET",
+  "flowId" : "git-test-holiday-refer",
+  "version" : -1,
+  "authentication" : "IMAuthentication",
+  "authenticationParam" : null,
+  "authzUri" : "im-logic-rest://accel-studio-app/git-test/refer-GET",
+  "secured" : false,
+  "responseType" : "imJsonResponse",
+  "responseHeader" : { }
+}, {
+  "route" : "accel-studio-app/git-test/withdrawal",
+  "method" : "PUT",
+  "flowId" : "git-test-holiday-withdrawal",
+  "version" : -1,
+  "authentication" : "IMAuthentication",
+  "authenticationParam" : null,
+  "authzUri" : "im-logic-rest://accel-studio-app/git-test/withdrawal-PUT",
+  "secured" : true,
+  "responseType" : "imJsonResponse",
+  "responseHeader" : { }
+} ]
